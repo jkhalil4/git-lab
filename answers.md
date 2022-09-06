@@ -99,4 +99,10 @@ The push failed because GitHub contains changes that are not local on this compu
 
 Answer 12:
 
-After pulling the changes from GitHub, I was able to see the changes made on my local machine as well.  
+After pulling the changes from GitHub, I was able to see the changes made on my local machine as well. 
+
+Answer 13:
+
+.  ..  .git  .gitignore  README.md
+
+ 
