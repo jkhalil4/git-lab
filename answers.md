@@ -89,3 +89,14 @@ Untracked files:
 
 	terminal
 
+Answer 10:
+
+No, commiting the README file on GitHub did not change the local document.
+
+Answer 11:
+
+The push failed because GitHub contains changes that are not local on this computer, we must pull the changes from github to the local machine.
+
+Answer 12:
+
+After pulling the changes from GitHub, I was able to see the changes made on my local machine as well.  
