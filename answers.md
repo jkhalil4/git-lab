@@ -87,3 +87,6 @@ Answer 11: git gives the output "Already up to date" since all changes in the re
 
 Question 12: After issuing the command git pull and git push, do the online repository changes relect in the local copy? 
 Answer 12: Yes, after issuing the push and pull commands, the file is up to date on github remote repository and the local machine.
+
+Question 13: Issue the command ls -a and record the output. 
+Answer 13: .  ..  .git  .gitignore  README.md
