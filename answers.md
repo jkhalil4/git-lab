@@ -58,3 +58,32 @@ Date:   Thu May 18 08:50:53 2023 -0400
 
 Initial Commit
 
+Question 9: Record the output of git status after pushing the repository to remote.
+Answer 9: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   answers.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Question 10: Do the changes in README.md reflect in the online copy after committing it locally?
+Answer 10: No. You must issue the command git push to push all changes from the commit area locally to the remote repository.
+
+Question 11: Try the command git push and record the output.
+Answer 11: Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.23 KiB | 1.23 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To github.com:jkhalil4/git-lab.git
+   310f26c..7047968  main -> main
+   
+Question 11: Issue the git pull command to pull changes from the remote repository to the local repository. See output below.
+Answer 11: git gives the output "Already up to date" since all changes in the remote repository are synchronized.
+
+Question 12: After issuing the command git pull and git push, do the online repository changes relect in the local copy? 
+Answer 12: Yes, after issuing the push and pull commands, the file is up to date on github remote repository and the local machine.
